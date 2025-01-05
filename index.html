@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/flowers.png" type="image/x-icon">
+    <title>FLORES</title>
+    <style>
+        .image-container img {
+            width: 100%;
+            max-width: 360px;
+            animation: moveImage 5s linear infinite;
+        }
+
+        @keyframes moveImage {
+            0% {
+                transform: translateX(0);
+            }
+            50% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="greetings">
+            <span>H</span>
+            <span>O</span>
+            <span>L</span>
+            <span>A</span>
+            <span>PATRICIA</span>
+        </div>
+        <div class="image-container">
+            <img src="https://w3ask.com/img/cillian_murphy.png" alt="Flor especial">
+        </div>
+        <div class="description">
+            <span>¡Soy Cillian Murphy y tengo un regalo especial para ti!</span>
+        </div>
+        <div class="button">
+            <button>
+                <a href="FLORES.html">Haga Clic</a>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
